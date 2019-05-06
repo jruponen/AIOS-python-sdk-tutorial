@@ -1,14 +1,15 @@
-# IBM Watson OpenScale Lab: Validating a German Credit Risk Model for Fairness and Accuracy
+# Advanced tutorial - Setting up and using Watson OpenScale via Python SDK
 
 Version 2019-03-17 by Jukka Ruponen/IBM
 
-**The purpose of this tutorial is to demonstrate how to configure and use OpenScale programmatically by using Python SDK.**  
+**The purpose of this tutorial is to demonstrate how to configure and use OpenScale programmatically by using Python SDK.**
+The sample scenario is validating German Credit Risk Model for Fairness and Accuracy.  
 
-This tutorial uses a slightly modified version of the Notebook, but the steps are the same as described in here:  
+This tutorial uses a slightly modified version of the Notebook, but otherwise the steps are the same as described here:  
 Documentation: https://cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-crt-ov  
 Source: https://github.com/emartensibm/german-credit  
 
-The tutorial uses a Jupyter notebook that should be run in a Watson Studio project, using a "**Python 3.5 with Spark**" runtime environment. It requires service credentials for the following IBM Cloud services:
+The Jupyter Notebook should be run in a Watson Studio project, using a "**Python 3.5 with Spark**" runtime environment. It requires service credentials for the following IBM Cloud services:
 
     Cloud Object Storage (to store your Watson Studio project)
     Watson OpenScale
